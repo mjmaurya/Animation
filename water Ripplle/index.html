@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    Water Ripple Effect
+    </title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+    <body>
+    
+    <section>
+        
+        </section>
+        
+        
+        
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="jquery.ripples.js"></script>
+        
+        <script>
+        $(document).ready(function(){
+            $('section').ripples({
+                resolution: 256,
+
+     dropRadius: 20,
+
+     perturbance: 0.04,
+            });
+        })
+        </script>
+    </body>
+</html>
